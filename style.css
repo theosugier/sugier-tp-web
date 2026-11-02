@@ -1,1 +1,25 @@
+body { 
+    background-color: black;
+    color: white;
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    padding: 40px;
+}
 
+h1 {
+    color: #00ff41;
+}
+
+a {
+    color: #00ff41;
+    text-decoration: none;
+    border: 1px solid #00ff41;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: #00ff41;
+    color: black;
+}
