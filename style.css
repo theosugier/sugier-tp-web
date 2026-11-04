@@ -62,6 +62,12 @@ p {
     color: black;
 }
 
+footer { /* bas de page */
+    margin-top: 60px;
+    font-size: 14px;
+    color: #777777;
+}
+
 /* fonds pages */
 .accueil {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/accueil.jpg"); /* voile noir image */
