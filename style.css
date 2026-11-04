@@ -6,14 +6,17 @@ body { /* toute la page */
     padding: 40px;
     max-width: 800px; /* texte pas tout ecran */
     margin: 0 auto; /* texte milieu */
-    line-height: 1.6; 
+    line-height: 1.6;
+    background-size: cover; /* image remplit ecran */
+    background-position: center; /* image centree */
+    background-attachment: fixed; /* image fixe scroll */
 }
 
-h1 { /* titre  */
+h1 { /* titre */
     color: #00ff41;
     text-transform: uppercase;  /* titre maj */
     letter-spacing: 4px;
-    text-shadow: 0 0 10px #00ff41; /* néon titre */
+    text-shadow: 0 0 10px #00ff41; /* neon titre */
     border-bottom: 1px solid #00ff41; 
     padding-bottom: 10px;    
 }
@@ -26,35 +29,80 @@ a { /* lien */
     display: inline-block;
     margin: 10px;
     transition: 0.3s;                  
-    text-transform: uppercase;         /* boutons en majuscules */
+    text-transform: uppercase;         /* bouton majuscule */
     letter-spacing: 2px;
-    font-family: inherit;              /* même police que le reste */
+    font-family: inherit;              /* meme police */
 }
 
-a:hover { /* Passe sur liens */
+a:hover { /* survol lien */
     background-color: #00ff41;
     color: black;
-    box-shadow: 0 0 15px #00ff41;      /* le bouton brille survole */
+    box-shadow: 0 0 15px #00ff41;      /* bouton brille */
     cursor: pointer;
 }
 
-a img { /* icon dans un bouton */
+a img { /* icone bouton */
     width: 20px;
     vertical-align: middle;
     margin-right: 8px;
 }
 
-a:hover img { /* icon quand on survole */
+a:hover img { /* icone survol */
     filter: brightness(0);
 }
 
 p {
     color: #cccccc;                   
-    border-left: 3px solid #00ff41;    /* barre verte gauche texte */
-    padding-left: 15px;                /* éloigne le texte de la barre */
+    border-left: 3px solid #00ff41;    /* barre verte gauche */
+    padding-left: 15px;                /* espace barre texte */
 }
 
-::selection {                      /*surlignes txt souris */
+::selection {                      /* surlignage souris */
     background-color: #00ff41;
     color: black;
+}
+
+/* fonds pages */
+.accueil {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/accueil.jpg"); /* voile noir image */
+}
+
+.scene01 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene01.jpg"); /* voile noir image */
+}
+
+.scene02 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene02.jpg"); /* voile noir image */
+}
+
+.scene03 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene03.jpg"); /* voile noir image */
+}
+
+.scene04 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene04.jpg"); /* voile noir image */
+}
+
+.scene05 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene05.jpg"); /* voile noir image */
+}
+
+.scene06 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene06.jpg"); /* voile noir image */
+}
+
+.scene07 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene07.jpg"); /* voile noir image */
+}
+
+.scene08 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene08.jpg"); /* voile noir image */
+}
+
+.scene09 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene09.jpg"); /* voile noir image */
+}
+
+.scene10 {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene10.jpg"); /* voile noir image */
 }
