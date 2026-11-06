@@ -1,7 +1,7 @@
 body { /* toute la page */
     background-color: black;
     color: white;
-    font-family: "Courier New", monospace;
+    font-family: "Share Tech Mono", "Courier New", monospace;
     font-size: 18px;
     padding: 40px;
     max-width: 800px; /* texte pas tout ecran */
