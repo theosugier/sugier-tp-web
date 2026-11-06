@@ -1,3 +1,7 @@
+* { /* toutes les balises */
+    box-sizing: border-box;
+}
+
 body { /* toute la page */
     background-color: black;
     color: white;
