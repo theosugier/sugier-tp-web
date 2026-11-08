@@ -14,6 +14,13 @@ body { /* toute la page */
     background-size: cover; /* image remplit ecran */
     background-position: center; /* image centree */
     background-attachment: fixed; /* image fixe scroll */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* hauteur ecran minimum */
+}
+
+main { /* contenu principal */
+    flex: 1; /* prend place qui restee */
 }
 
 h1 { /* titre */
