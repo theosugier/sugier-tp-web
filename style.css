@@ -25,11 +25,11 @@ main { /* contenu principal */
 
 h1 { /* titre */
     color: #00ff41;
-    text-transform: uppercase;  /* titre maj */
+    text-transform: uppercase; /* titre maj */
     letter-spacing: 4px;
     text-shadow: 0 0 10px #00ff41; /* neon titre */
-    border-bottom: 1px solid #00ff41; 
-    padding-bottom: 10px;    
+    border-bottom: 1px solid #00ff41;
+    padding-bottom: 10px;
 }
 
 a { /* lien */
@@ -38,16 +38,16 @@ a { /* lien */
     border: 1px solid #00ff41;
     padding: 10px 20px;
     display: inline-block;
-    transition: 0.3s;                  
-    text-transform: uppercase;         /* bouton majuscule */
+    transition: 0.3s;
+    text-transform: uppercase; /* bouton majuscule */
     letter-spacing: 2px;
-    font-family: inherit;              /* meme police */
+    font-family: inherit; /* meme police */
 }
 
 a:hover { /* survol lien */
     background-color: #00ff41;
     color: black;
-    box-shadow: 0 0 15px #00ff41;      /* bouton brille */
+    box-shadow: 0 0 15px #00ff41; /* bouton brille */
     cursor: pointer;
 }
 
@@ -69,12 +69,12 @@ a:hover img { /* icone survol */
 }
 
 p {
-    color: #cccccc;                   
-    border-left: 3px solid #00ff41;    /* barre verte gauche */
-    padding-left: 15px;                /* espace barre texte */
+    color: #cccccc;
+    border-left: 3px solid #00ff41; /* barre verte gauche */
+    padding-left: 15px; /* espace barre texte */
 }
 
-::selection {                      /* surlignage souris */
+::selection { /* surlignage souris */
     background-color: #00ff41;
     color: black;
 }
@@ -93,49 +93,49 @@ em {
     color: #ffffff;
 }
 
-/* fonds pages */
+/* fonds pages avec voile noir */
 .accueil {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/accueil.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/accueil.jpg");
 }
 
 .scene01 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene01.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene01.jpg");
 }
 
 .scene02 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene02.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene02.jpg");
 }
 
 .scene03 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene03.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene03.jpg");
 }
 
 .scene04 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene04.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene04.jpg");
 }
 
 .scene05 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene05.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene05.jpg");
 }
 
 .scene06 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene06.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene06.jpg");
 }
 
 .scene07 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene07.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene07.jpg");
 }
 
 .scene08 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene08.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene08.jpg");
 }
 
 .scene09 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene09.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene09.jpg");
 }
 
 .scene10 {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene10.jpg"); /* voile noir image */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/scene10.jpg");
 }
 
 .fond { /* video en fond */
