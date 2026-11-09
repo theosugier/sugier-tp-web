@@ -85,6 +85,14 @@ footer { /* bas de page */
     color: #777777;
 }
 
+strong { /* mot important */
+    color: #00ff41;
+}
+
+em {
+    color: #ffffff;
+}
+
 /* fonds pages */
 .accueil {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/backgrounds/accueil.jpg"); /* voile noir image */
